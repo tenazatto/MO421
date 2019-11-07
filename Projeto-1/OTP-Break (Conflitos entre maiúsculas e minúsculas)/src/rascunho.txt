@@ -1,0 +1,9 @@
+./otp-break [flag]
+
+flag = [-d] (-key | [-cipher]) | -help (-key | -cipher | [-all])
+
+-key plaintext-file ciphertext-file [key-file-generated]
+output: key-file-generated (default key.txt)
+
+-cipher ciphertext-file-1 ciphertext-file-2 dictionary-file
+output: output-file-generated (default [word-name].txt)

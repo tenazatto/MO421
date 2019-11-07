@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OTP-Break:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/OTP_Break_jar</output-path>
+    <root id="archive" name="OTP-Break.jar">
+      <element id="module-output" name="OTP-Break" />
+      <element id="dir-copy" path="$PROJECT_DIR$/resources/dictionaries" />
+      <element id="dir-copy" path="$PROJECT_DIR$/resources/forbidden" />
+    </root>
+  </artifact>
+</component>
